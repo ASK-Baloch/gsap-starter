@@ -14,6 +14,7 @@ import {
 const App = () => {
   return (
     <div className="bg-black min-h-screen w-full">
+      <h1>EveryTHing u need to know about gsap</h1>
       <Router>
         <Routes>
           <Route path="/gsapto" element={<GsapTo />} />
@@ -24,6 +25,7 @@ const App = () => {
           <Route path="/gsapscrolltrigger" element={<GsapScrollTrigger />} />
           <Route path="/gsaptext" element={<GsapText />} />
           <Route path="/" element={<Home />} />
+          
         </Routes>
       </Router>
     </div>
